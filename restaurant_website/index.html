@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рестораны вэбсайт</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header хэсэг эхэлнэ     -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>huuk.</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">Нүүр</a>
+        <a href="#dishes">хоолнууд</a>
+        <a href="#about">тухай</a>
+        <a href="#menu">меню</a>
+        <a href="#review">сэтгэгдэл</a>
+        <a href="#order">захиалга</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header хэсэг дуусна-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home хэсэг эхэлнэ  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Онцлох бүтээгдэхүүн</span>
+                    <h3>халуун ногоотой гоймон</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">яг одоо захиалаарай</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Онцлох бүтээгдэхүүн </span>
+                    <h3>шарсан тахиа</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">яг одоо захиалаарай</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Онцлох бүтээгдэхүүн </span>
+                    <h3>халуун пицца</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">яг одоо захиалаарай</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home хэсэг дуусна -->
+
+<!-- dishes хэсэг эхлэнэ  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Санал болгох </h3>
+    <h1 class="heading"> алдартай хоол </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-1.png" alt="">
+            <h3> Дабл Чизбургер </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>20000</span>
+            <a href="#" class="btn">картанд нэмэх</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="">
+            <h3>Чикен наггет</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>32000</span>
+            <a href="#" class="btn">картанд нэмэх</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="">
+            <h3>Шарсан тахиа</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>52000</span>
+            <a href="#" class="btn">картанд нэмэх</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="">
+            <h3>Пармезан бяслагтай ХатДог Пицца</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>34000</span>
+            <a href="#" class="btn">картанд нэмэх</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="">
+            <h3>Fudge Stuffed жигнэмэг</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>12500</span>
+            <a href="#" class="btn">картанд нэмэх</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="">
+            <h3>Тахианы мах</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>8000</span>
+            <a href="#" class="btn">картанд нэмэх</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- dishes хэсэг дуусна -->
+
+<!-- about хэсэг эхлэнэ  -->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> Huuk. </h3>
+    <h1 class="heading"> яагаад биднийг сонгох вэ? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>улс орны хамгийн сайн хоол</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>үнэгүй хүргэлттэй</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>хялбар төлбөр</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 үйлчилгээ</span>
+                </div>
+            </div>
+            <a href="#" class="btn">илүү их судла</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about хэсэг дуусна -->
+
+<!-- menu хэсэг эхлэнэ -->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> манай цэс </h3>
+    <h1 class="heading"> өнөөдрийн онцлог </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-1.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>халапено соустай хатдог пицца</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">25000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-2.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Бяслагтай зингер бургер</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">15000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-3.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Пангейк</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">25000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-4.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Вафле</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">12000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>шоколадтай бялуу</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">16500</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-6.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>маффин</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">8000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-7.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>смүүти</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">5000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-8.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>acai bowl</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">10000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-9.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>нимбэгний шүүс</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">картанд нэмэх</a>
+                <span class="price">5000</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu хэсэг дуусна -->
+
+<!-- review хэсэг эхэлнэ  -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> Санал хүсэлт </h3>
+    <h1 class="heading"> Сэтгэгдэл</h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Дөлгөөн.png" alt="">
+                    <div class="user-info">
+                        <h3>Дөлгөөн</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Отгоо.png" alt="">
+                    <div class="user-info">
+                        <h3>Отгоо</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Сарнай.png" alt="">
+                    <div class="user-info">
+                        <h3>Сарнай</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Саруул.png" alt="">
+                    <div class="user-info">
+                        <h3>Саруул</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- review хэсэг дуусна -->
+
+<!-- order хэсэг эхэлнэ -->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> яг одоо захиалаарай</h3>
+    <h1 class="heading">үнэгүй, хурдан</h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>таны нэр</span>
+                <input type="text" placeholder="нэрээ оруулна уу">
+            </div>
+            <div class="input">
+                <span>таны дугаар</span>
+                <input type="number" placeholder="дугаараа оруулна уу">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>таны захиалга</span>
+                <input type="text" placeholder="хоолны нэрийг оруулна уу">
+            </div>
+            <div class="input">
+                <span>нэмэлт</span>
+                <input type="test" placeholder="хоолтой хамт нэмэлт">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>хэр их</span>
+                <input type="number" placeholder="хэдэн захиалга">
+            </div>
+            <div class="input">
+                <span>огноо, цаг</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>таны хаяг</span>
+                <textarea name="" placeholder="хаягаа оруулна уу" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>таны мессеж</span>
+                <textarea name="" placeholder="мессежээ оруулна уу" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="оруулах" value="яг одоо захиалаарай" class="btn">
+
+    </form>
+
+</section>
+
+<!-- захиалгын хэсэг дуусна -->
+
+<!-- footer хэсэг эхэлнэ --> 
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Цэс</h3>
+            <a href="#">Нүүр</a>
+            <a href="#">Хоолнууд</a>
+            <a href="#">Тухай</a>
+            <a href="#">Цэс</a>
+            <a href="#">Сэтгэгдэл</a>
+            <a href="#">Захиалга</a>
+        </div>
+
+        <div class="box">
+            <h3>Үйлчилгээний нөхцөл</h3>
+            <a href="#">Нууцлалын бодлого</a>
+            <a href="#">Үйлчилгээний нөхцөл</a>
+        </div>
+
+        <div class="box">
+            <h3>Холбоо барих мэдээлэл</h3>
+            <a href="#">85292577</a>
+            <a href="#">huderee129@gmail.com</a>
+            <a href="#">Жаргалант сум, Ховд хот, Монгол улс</a>
+        </div>
+
+        <div class="box">
+            <h3>биднийг дагаарай</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- js файлын холбоос -->
+<script src="js/script.js"></script>
+<script src="./js/app.js"></script> 
+
+</body>
+</html>
